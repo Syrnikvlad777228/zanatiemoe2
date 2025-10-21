@@ -10,4 +10,12 @@ void main(List<String> arguments) {
   final int a1 = int.parse(stdin.readLineSync() ?? "0");
   print("Введите у второй клетки");
   final int b1 = int.parse(stdin.readLineSync() ?? "0");
+  final x = (a + b) % 2 ;
+  final y = (a1 + b1) % 2 ;
+  if(a==b){
+    print("Одинаковые");
+  }
+  else {
+    print("Разные");
+  }
 }
