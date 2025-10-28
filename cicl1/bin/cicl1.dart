@@ -1,7 +1,7 @@
 import 'dart:ffi';
 import 'dart:io';
 
-import 'package:cicl1/cicl1.dart' as cicl1;
+
 
 void main(List<String> arguments) {
   final sum = 170;
